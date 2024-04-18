@@ -52,29 +52,3 @@ public class Main {
 
     }
 }
-
-// package com.uco.hackathon;
-
-// import java.util.Scanner;
-
-// public class Main {
-// public static void main(String[] args) {
-// Scanner scanner = new Scanner(System.in);
-
-// System.out.print("Ingrese la cantidad de equipos a registrar:");
-// int cantidadEquipos = scanner.nextInt();
-// scanner.nextLine();
-
-// String[] equipo = new String[cantidadEquipos];
-
-// for (int i = 0; i < cantidadEquipos; i++) {
-// System.out.println("Registre el equipo numero " + (i + 1));
-// equipo[i] = scanner.nextLine();
-// }
-// for (int i = 0; i < cantidadEquipos - 1; i++) {
-// for (int j = i + 1; j < equipo.length; j++) {
-// System.out.println(equipo[i] + " vs " + equipo[j]);
-// }
-// }
-// }
-// }
